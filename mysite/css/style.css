@@ -1,0 +1,583 @@
+body {
+    background: #ececec;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: black;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.btnRed {
+    background: #d51e08;
+    color: white;
+}
+
+/* .topMenu */
+
+.topMenu .navbar {
+    margin-bottom: 0;
+    padding: 35px 0;
+    background: #ffffff;
+    text-transform: uppercase;
+}
+
+.topMenu .navbar .navbar-nav>li>a {
+    color: black;
+    padding: 5px 15px;
+}
+
+.topMenu .navbar .navbar-nav>li>a:hover {
+text-decoration: underline;
+}
+
+.topMenu .navbar .navbar-nav>li>a.btnRed {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.topMenu .navbar .navbar-nav>li>a.btnRed:hover {
+    background: #ec4835;
+    text-decoration: none;
+}
+
+.flag {
+    position: relative;
+    top: -1.5px;
+}
+
+.topMenu .navbar .navbar-nav>li>.btnRed>.glyphicon {
+    margin-right: 10px;
+}
+
+.topMenu .navbar-collapse {
+    padding-left: 0;
+}
+
+
+/* 
+SLYDER */
+
+.menuCarousel .item {
+    min-height: 715px;
+}
+
+.menuCarousel>#carousel .item>.backgroundSlaider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menuCarousel .carousel-caption {
+    position: absolute;
+    left: -150px;
+    top: 261px;
+}
+
+.menuCarousel .carousel-caption>h1 {
+font-weight: bold;
+font-size: 48px;
+}
+
+
+.menuCarousel .carousel-caption>h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.menuCarousel .carousel-caption>.btnRed {
+    font-size: 24px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.menuCarousel .carousel-caption>.btnRed:hover {
+    background: #ec4835;
+}
+
+.carousel-wrap {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-wrap>.carousel-indicators {
+    position: relative;
+    bottom: 0;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #D7D7D7;
+    width: auto;
+    margin-left: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    padding: 5px 25px;
+}
+
+.carousel-wrap>.carousel-indicators>li {
+    background: #D3D3D3;
+    margin: 0 20px;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-wrap>.carousel-indicators>li:first-of-type {
+    margin-left: 0;
+}
+
+.carousel-wrap>.carousel-indicators>li:last-of-type {
+    margin-right: 0;
+}
+
+.carousel-wrap>.carousel-indicators>li.active {
+    background: #A1A1A1;
+}
+
+.mainMenu {
+    position: absolute;
+    top: 30px;
+    z-index: 20;
+    width: 100%;
+}
+
+.mainMenuBg {
+    background: black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.menuCarousel .navbar-default {
+    background: transparent;
+    border: none;
+}
+ 
+.menuCarousel .navbar-header>.navbar-brand {
+    padding: 0;   
+    margin-left: 20px; 
+}
+
+.menuCarousel .navbar-brand>img {
+    float: left;
+}
+
+.menuCarousel .navbar-brand span {
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.menuCarousel .nav>li>a {
+    color: white;
+    font-size: 16px;
+}
+
+.menuCarousel .nav>li>a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.search {
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+    position: absolute;
+    right: 10px;
+    z-index: 10;
+    display: none;
+}
+
+
+
+/* THIS TRY */
+
+/* MAIN */
+
+.underHeader h1 {
+    font-size: 30px;    
+    padding: 53px 0;
+}
+
+.asideMain {
+    background: #ECECEC;
+    border-top: 3px solid #DADADA;
+}
+
+.asideMain .mainLeft>h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 49px 0;
+}
+
+.mainLeft .inSection {
+    background: white;
+    border: 1px solid #DADADA;
+    margin-bottom: 15px;
+}
+
+.mainLeft .inSection:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+.inSection>.forPhoto {
+    height: 256px;
+    padding-top: 36px;
+    position: relative;
+}
+
+.inSection>.forPhoto>.glyphicon-heart {
+    position: absolute;
+    font-size: 2em;
+    color: #8E8E8E;
+    top: 4%;
+    right: 8%;
+    cursor: pointer;
+}
+
+.inSection>.forPhoto>.glyphicon-heart:active {
+    color: #D51E08;
+}
+
+.inSection>.forPhoto>.glyphicon-tag {
+    position: absolute;
+    font-size: 3em;
+    color: #8E8E8E;
+    top: 6%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.inSection>.forPhoto>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inSection>.forPhoto>img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.inSection>.forText {
+    text-align: center;
+    height: 72px;
+}
+
+.inSection>.forText>h2 {
+    font-size: 0.88em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.inSection>.forText>p {
+    font-size: 0.88em;
+}
+
+.inSection>.forButton {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inSection>.forButton>h1 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #D51E08;
+    margin-bottom: 30px;
+}
+
+.inSection>.forButton>h1:hover {
+    cursor: pointer;
+}
+
+.inSection>.forButton>button {
+    padding: 13px 0;
+    width: 132px;
+}
+
+.inSection>.forButton>button>span {
+    font-size: 0.88em;
+}
+
+.newPhoto {
+    margin-top: 32px;
+}
+
+.newPhoto div>img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newPhoto>section {
+    margin-bottom: 15px;
+}
+
+.asideRight {
+    border-right: 3px solid #DADADA;
+}
+
+.asideRight .leftText {
+    border-bottom: 3px solid #DADADA;
+}
+
+.asideRight .leftText>h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 41px 0;
+}
+
+.asideRight .leftText>ul>li {
+    margin-bottom: 20px;
+}
+
+.asideRight .leftText>ul>li:hover {
+    color: #5296D0;
+    cursor: pointer;
+}
+
+.asideRight .leftCarousel {
+    margin-top: 30px;  
+}
+
+.leftCarousel .carousel-inner>.item {
+    background: white;
+    text-align: center;
+}
+
+.leftCarousel .carousel-inner>.item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftCarousel .carousel-inner>.item>h2 {
+    font-size: 0.88em;
+    font-weight: bold;
+    margin: 23px 0;
+}
+
+.leftCarousel .carousel-inner>.item>p {
+    margin-bottom: 25px;
+}
+
+.leftCarousel .carousel-inner>.item>.forOval {
+    border-top: 1px solid #DADADA;
+    padding: 17px;
+    position: relative;
+}
+
+.leftCarousel .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+}
+
+.leftCarousel .carousel-indicators li.active {
+    background: #5C5C5C;
+}
+
+.leftCarousel .carousel-indicators li {
+    background: #9A9A9A;
+}
+
+.asideRight .aboutCarouse {
+    margin-top: 30px;
+}
+
+.asideRight .aboutCarouse>div {
+    background: white;
+    text-align: center;
+}
+
+.asideRight .aboutCarouse>div>.girl {
+    width: 100%;
+    height: 100%;
+}
+
+.asideRight .aboutCarouse>div h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.asideRight .aboutCarouse>div h2:first-of-type {
+    margin-top: 35px;
+}
+
+.asideRight .aboutCarouse>div h1 {
+    font-size:1.8em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.asideRight .aboutCarouse>div button {
+    margin: 27px 0;  
+    padding: 9px 40px;
+    border: none;
+}
+
+.asideRight .aboutCarouse>div button>span {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.asideRight .asideButtom>h1 {
+    font-size: 1.5em;
+    margin: 21px 0;
+}
+
+.asideRight .asideButtom>p {
+    margin-bottom: 30px;
+}
+
+.asideRight .asideButtom>p:hover {
+    color: #289FBA;
+}
+
+.getForm {
+    background:#F5F5F5;
+}
+
+.getForm section>h1 {
+    font-size: 1.5em;
+}
+
+.getForm section>p {
+    font-size: 1.1em;
+} 
+
+.getForm .rowForm {
+    display: flex;
+}
+
+.getForm .rowForm>section, .getForm .rowForm>div {
+    margin: auto;
+}
+
+.getForm .rowForm>section {
+    margin: 30px 0;
+}
+
+.getForm .rowForm .strock input {
+    padding: 30px;
+}
+
+.getForm .rowForm .strock button {
+    background: #E77553;
+    padding: 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.getForm .rowForm .strock button span {
+    padding: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+.allFooter {
+    background: #343434;
+    color: white;
+}
+
+.allFooter .footerUl {
+    list-style-type: none;
+}
+
+.allFooter h1 {
+    font-size: 0.88em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.allFooter ul {
+    padding: 0;
+}
+
+.allFooter ul>li {
+    font-size: 0.88em;
+}
+
+.allFooter footer {
+    margin-top: 35px;
+}
+
+
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+.getForm .rowForm {
+    display: block;
+}
+
+	.topMenu .navbar-right,  .mainMenu .navbar-right{
+        float: left !important;
+    }
+
+    .mainMenu .navbar-form {
+        position: absolute;
+        display: none;
+        right: 15px;
+    }
+
+    .mainMenu .container {
+        padding: 0;
+    }
+
+    .menuCarousel .carousel-caption {
+        left: 15%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .getForm .rowForm {
+        display: block;
+    }
+
+	.search {
+        display: none;
+    }
+
+    
+    .mainMenu .navbar-form {
+        position: relative;
+        display: block;
+        right: 0;
+    }
+
+    .mainMenu .navbar-brand img {
+        max-height: 64px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+
